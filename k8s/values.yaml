@@ -1,0 +1,9 @@
+image: postgres:18-alpine
+
+database: app
+user: app
+# Demo password, fixed because Argo CD keeps randomly generated values OutOfSync.
+# Reachable only inside the preview namespace.
+password: preview-demo-only
+
+resources: {}

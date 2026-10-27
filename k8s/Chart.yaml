@@ -1,0 +1,5 @@
+apiVersion: v2
+name: postgres
+description: Per-preview Postgres for doublure demo previews
+version: 0.1.0
+home: https://github.com/doublurehq/demo-postgres
